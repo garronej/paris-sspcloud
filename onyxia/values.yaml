@@ -4,12 +4,9 @@ onyxia:
     annotations:
       kubernetes.io/ingress.class: nginx
     hosts:
-      - host: jonyxia.kub.sspcloud.fr
       - host: onyxia.evt.land
-
     tls:
       - hosts:
-          - jonyxia.kub.sspcloud.fr
           - onyxia.evt.land
 
  
