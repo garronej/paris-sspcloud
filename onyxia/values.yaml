@@ -1,0 +1,12 @@
+onyxia:
+  ingress:
+    enabled: true
+    annotations:
+      kubernetes.io/ingress.class: nginx
+    hosts:
+      - host: jonyxia.kub.sspcloud.fr
+    tls:
+      - hosts:
+          - jonyxia.kub.sspcloud.fr
+
+ 
